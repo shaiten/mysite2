@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+h2{
+	color: rgb(255, 50, 50);
+	font-weight: bold;
+	font-size: 2em;
+}
+p{
+	font-size: 1.11em;
+}
+.container{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+.button{
+	border: 5px white solid;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 2em;
+}
+.button:hover {
+	background-color: rgba(255, 255, 255, 0.4)
+}
+.content{
+	display: inline-block;
+}
+/*
+				nav
+*/
+	#header{
+		background: #1c1c1c;
+		width: 100%;
+		height: 70px;
+	}
+		#nav-bar{
+			width: inherit;
+			height: 70px;
+			background: #1c1c1c;
+			position: fixed;
+			top: 0;
+			display: block;
+		}
+			#nav-bar .logo{
+				display: inline-block;
+				color: #e5474b;
+				text-decoration: none;
+				height: inherit;
+				font-size: 1.75em;
+				font-weight: bold;
+				font-family: 'Pacifico', cursive;
+				line-height: 70px;
+				margin-left: 5%;
+			}
+			#nav-bar .logo:hover {
+				color: rgba(229, 71, 75, 0.75);
+			}
+			#nav{
+				position: absolute;
+				right: 0px;
+				display: inline-block;
+				height: inherit;
+				line-height: 70px;
+				margin-right: 5%;
+			}
+			#nav a{
+				text-decoration: none;
+				height: inherit;
+				font-size: 1.75em;
+				font-weight: 700;
+				font-size: 1.1em;
+				text-transform: uppercase;
+				color: white;
+				padding: 0 0.4em;
+				display: inline-block;
+			}
+/*
+		section 1
+*/
+	#banner{
+		background-image: url(../../images/mountainbg.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		max-width:100%;
+		max-height:100%;
+		height: 35em;
+	}
+
+		#banner .container{
+			max-width: 65em;
+			margin: 0 auto;
+			text-align: center;
+			padding-top: 20%;
+		}
+			#banner .container h1{
+				color: white;
+				font-weight: bolder;
+				font-size: 3em;
+				display:inline;
+				width: 100%;
+				line-height: 1.2;
+			}
+			#banner .button{
+				display: block;
+				max-width: 5em;
+				margin: 0 auto;
+				margin-top: 2.5%;
+			}
+/*
+		one
+*/
+	#one{
+		margin-top: 10px;
+		padding: 2% 5%;
+	}
+		#one h2{
+			margin-top: 0;
+			color: rgb(255, 50, 50);
+			font-weight: bold;
+			font-size: 2em;
+		}
+		#one p{
+			font-size: 1.11em;
+			line-height: 2em;
+		}
+		#one .button{
+			border: 2.5px solid rgb(255, 77, 77);
+			color: red;
+			padding: 7px 10px;
+			font-size: 1.3em;
+			display: block;
+			margin-top: 10px;
+			max-width: 5em;
+		}
+		#one .button:hover{
+			background-color: rgba(255,10,10,0.2);
+		}
+/*
+		two
+*/
+	#two{
+		width: 100%;
+		background-color: #ebebe0
+	}
+		#two .container{
+			margin: 0 auto;
+			width: 90%;
+			padding-top: 2.5%;
+		}
+		#two .container .content{
+			display: inline-block;
+			width: 45%;
+			height: 100%;
+			text-align: left;
+		}
+		#two .container .content header{
+			text-align: left;
+		}
+		#two img{
+			max-width: 100%;
+		}
+		#rightp{
+			margin-right: 2.5%;
+		}
+		#leftp{
+			margin-left: 2.5%;
+		}
+/*
+		three
+*/
+.icon {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+	font-family: FontAwesome;
+}
+	#three{
+		padding: 5% 0;
+	}
+		#three .container{
+			width: 95%;
+			margin: auto;
+		}
+		#three .content{
+			width: 27%;
+			text-align: center;
+			margin: 0 3%;
+		}
+		#three .content .button{
+			border: 2.5px solid rgb(255, 77, 77);
+			color: red;
+			padding: 7px 10px;
+			font-size: 1.3em;
+			display: block;
+			margin: 10px auto;
+			max-width: 5em;
+			text-align: center;
+		}
+
+
+
+/*
+	generic.html 
+*/
+#generic-content{
+	max-width: 100%;
+	margin: 4% 5%;
+}	
+	#grey{
+		background-color: #ebebe0;
+	}
+	#generic-content img{
+		max-width: 100%;
+	}
+	#generic-content h2{
+		margin-top: 0;
+		color: rgb(255, 50, 50);
+		font-weight: bold;
+		font-size: 2em;
+	}
+	#generic-content p{
+		margin-top: 0;
+		font-size: 1.11em;
+		line-height: 2em;
+		font-family: 'Montserrat', sans-serif;
+	}
+	#generic-content #p-content{
+		margin-top: 0;
+		background-color: rgb(255,255,255);
+		padding: 1em;
+	}
+
+/* 
+	elements.html
+ */
+#slideshow{
+	max-width: 100%;
+	background: #292828;
+	height: 28em;
+	border: 1px solid transparent;
+	box-sizing: border-box; 
+}
+	#slideshow #slide-container{
+		height: 94%;
+		margin-top: 2.2%;
+	}
+	#slideshow .slides{
+		margin: auto;
+		text-align: center;
+	}
+/*	
+text
+	*/
+#text{
+	border-top: 1px solid transparent;
+	box-sizing: border-box;
+}
+#text .container{
+	margin: 0 5%;
+}
